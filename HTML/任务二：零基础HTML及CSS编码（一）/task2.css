@@ -1,0 +1,65 @@
+html {
+    background-color: black;
+}
+
+.conter {
+    background-color: gray;
+    overflow:hidden;
+}
+.blockh {
+    overflow:hidden;
+}
+.blockh img {
+    float: left;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+    float: right;
+}
+
+.block {
+    background-color: white;
+}
+
+img {
+    width: 10%;
+}
+table {
+    margin: 0;
+    width: 100%;
+}
+th {
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+
+form {
+    text-align: center;
+    overflow:hidden;
+}
+
+.center {
+    position: relative;
+    left: 30%;
+}
+
+[type= button ] {
+    width: 95%;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+}
+
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
