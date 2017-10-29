@@ -1,0 +1,38 @@
+body {
+    position: static;
+  }
+  
+  .qu {
+    width: 400px;
+    height: 200px;
+    background-color: gray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+  }
+  .top {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+    border-radius: 0 0 50px 0;
+  }
+  .btm {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 50px;
+    margin-left: 150px;
+    border-radius: 50px 0 0 0;
+  }
+  
+  
