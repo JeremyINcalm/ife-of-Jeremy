@@ -6,10 +6,13 @@
         <link rel="stylesheet" type="text/css" href="task2.css" >
 
     </head>
+
     <body>
-    <div class="conter">
-    <div class="blockh">
-        <img scr="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1509180609&di=f876135296e4416e0d9a04db57417234&src=http://img.zcool.cn/community/01e645589c5d95a8012060c83173b5.png@900w_1l_2o_100sh.jpg" alt="pix">
+    
+
+    <!--表头-->
+    <div class="nav">
+        <img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superplus/img/logo_white_ee663702.png" alt="pic"width="270" height="129">
         <ul>
             <li><a>导航链接一</a></li>
             <li><a>导航链接二</a></li>
@@ -18,6 +21,9 @@
         </ul>
     </div>    
 
+<div class="con">
+
+    <!--段落1-->
     <div class="block">
         <h1>文章一级标题</h1>
         <h2>文章二级标题</h2>
@@ -31,7 +37,7 @@
         <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，</p>
         <p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<a href="http:/ife.baidu.com" target="_blank">这有一个链接打开新窗口到http:/ife.baidu.com,</a>这是一个很长很长的段落，这是一个很长很长的段落，
     </div>
-
+    <!--段落2-->
     <div class="block">
         <h1>另外一片文章的以及标题</h1>
         <h2>文章的二级标题</h2>
@@ -45,21 +51,23 @@
             <li>列表项目一</li>
         </ul>
     </div>
+    <!--图片-->
     <div class="block">
-            <div class:"pic">
+            <div class="pic">
                 <p>好看的图片</p>
                 <img src="http://img5.niutuku.com/phone/1301/3818/3818-niutuku.com-380370.jpg">
             </div>
-            <div class:"pic"><
+            <div class="pic">
                 <p>好看的图片</p>
                 <img src="http://img5.niutuku.com/phone/1301/3818/3818-niutuku.com-380370.jpg">
             </div>
-            <div class:"pic">
+            <div class="pic">
                 <p>好看的图片</p>
                 <img src="http://img5.niutuku.com/phone/1301/3818/3818-niutuku.com-380370.jpg">
             </div>
             
     </div>
+    <!--表格-->
     <div class="block">
         <h1>最后一篇文章以及标题</h1>
         <h2>文章二级标题</h2>
@@ -103,48 +111,55 @@
             </tr>
         </table>
     </div>
-
-    <div class="block">
+    <!--表单-->
+    <div class="aside">
         <h1>侧栏标题</h1>
         <h2>窗口标题</h2>
         <form>
-            邮箱地址：
-            <p class= center><input type="email" name="mail-box">
-            <br>
-            地址请安要求输入
-            </p>
-            请输入密码：
-            <p class= center>
-            <input type="password" value="pass-word">
-            </p>
-            请重复输入密码：
-            <p class= center>
-            <input type="password" value="pass-word">
-            <br>
-            密码为6位
-           </p>
+            <div>
+            <label  class="tag">邮箱地址：</label>
+            <input type="email" name="mail-box">
+            <p>地址请安要求输入</p>
+            </div>
+
+            <div>
+            <label  class="tag">请输入密码:</label>
+            <input type="password" >
+            </div>
+
+
+            <div>
+            <label  class="tag">请重复输入密码：</label>
+            <input type="password" >
             
-            性别
-            <p class= center>
+            <p> 密码为6位</p>
+            </div>
+            
+            <div>
+            <label  class="tag">性别</label>
             <input type="radio" name="sex" checked>male
             <input type="radio" name="sex">female
-           </p>
-            城市：
-            <p class= center>
+           
+            </div>
+            
+            <div>
+            <label  class="tag">城市：</label>
             <select>
                 <option>1</option>
                 <option>1</option>
                 <option>1</option>
             </select>
-            </p>
-            爱好：
-            <p class= center>
+            </div>
+
+            <div>
+            <lable  class="tag">爱好：</lable>
             <input type="checkbox">1
             <input type="checkbox">1
             <input type="checkbox">1
-            </p>
-            个人描述：
-            <p class= center>
+            </div>
+
+            <div>
+            <label  class="tag">个人描述：</label>
             <textarea rows="3" cols="20">在w3school，你可以找到你所需要的所有的网站建设教程.</textarea>
             </p>
             <input type="button" onclick="alert('Hello World!')" value="Click Me!">
@@ -153,12 +168,10 @@
         </form>
     
     </div>
-
-            
-    </div>
-
-
-       <footer>@</footer>
-            
+</div>
+<!--页尾-->
+<footer>
+    @
+</footer>
     </body>
 </html>

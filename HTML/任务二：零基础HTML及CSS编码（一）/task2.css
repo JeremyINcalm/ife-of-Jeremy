@@ -1,34 +1,71 @@
-html {
+body {
     background-color: black;
 }
+.nav {
+    overflow:hidden;
+    background-color: black;
+    color: white;
+}
+.con {
 
-.conter {
     background-color: gray;
     overflow:hidden;
 }
-.blockh {
-    overflow:hidden;
+.block {
+    margin: 20px;
+    padding: 35px 20px;
+    border: 1px solid gray;
+    box-shadow:  0 2px 2px 0 gray;
+    background-color: white;
 }
-.blockh img {
+.aside {
+    margin: 10px 20px 10px 10px;
+    padding: 20px 15px 20px 10px;
+    border: 1px solid white;
+    box-shadow: 0 1px 1px 0;
+}
+
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+.nav ul {
+    margin-right: 10px;
+    list-style-type: none;
+    float: right;
+    
+}
+.nav ul li {
     float: left;
 
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-li {
-    display: inline;
-    float: right;
-}
 
-.block {
-    background-color: white;
-}
 
 img {
     width: 10%;
+}
+
+.block ul {
+    list-style-type: none;
+}
+
+.pic {
+    width: 170px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #aaa;
+    padding: 10px;
+    margin: 20px 0 0 30px;
+}
+.pic>img {
+    width: 150px;
+    display: block;
+    margin-bottom: 0;
 }
 table {
     margin: 0;
@@ -39,27 +76,51 @@ th {
     color: white;
     text-align: left;
 }
+table tr:last-child {
+    font-weight: bold;
+    background: #ccc;
+}
+
+.aside {
+    margin: 20px 40px 20px 20px;
+    border: 1px solid gray;
+    box-shadow: 0 2px 2px 0;
+    background-color: white;
+}
+
+.aside h1{
+    border-left: 2px solid gray;
+    padding: 10px;
+}
 
 form {
-    text-align: center;
     overflow:hidden;
 }
 
-.center {
-    position: relative;
-    left: 30%;
+.tag {
+    width: 31%;
+    text-align: right;
+    float: left;
+
+
 }
 
+form input,
+form select {
+    margin-bottom: 10px;
+}
+form p {
+    margin-left: 31%;
+}
+
+
 [type= button ] {
-    width: 95%;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
     background-color: blue;
     border-radius: 10px;
     color: white;
 }
 
 
-footer {
-    text-align: center;
-    background-color: black;
-    color: white;
-}
