@@ -1,0 +1,50 @@
+div,main,section {
+  border: 1px solid #aaa;
+  overflow: auto;
+}  
+
+main {
+  background: #eee;
+
+  margin: 20px;
+}
+
+section,div {
+    margin: 20px 20px;
+   
+ }
+/**.left:after {
+  content:"";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  
+}**/
+.left {
+  width: 200px;
+  float: left;
+ }
+.left div {
+  width: 80px;
+  height: 80px;
+}
+
+.middle {
+     width: auto;
+     margin: 20px 160px 0 240px;
+}
+
+.right {
+  width: 120px;
+  float: right;
+}
+.right div{
+   width: 80px;
+  height: 80px;
+}
+img {
+  width: 80px;
+  height: 80px;
+}
