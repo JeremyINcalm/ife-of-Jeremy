@@ -1,0 +1,312 @@
+div {
+  margin: 0;
+  padding: 0;
+
+  color: black;
+}
+.main {
+  width: 980px;
+  height: 1386px;
+  position: relative;
+}
+.header {
+  width:892px;
+  height: 61px;
+  margin: 0 44px;
+  border-bottom: 2px solid #938e8c;
+  position: relative;
+ }
+.header div:first-child {
+  width: 110px;
+  height: 61px;
+
+  font-size: 12px;
+  color: #ffffff;
+  background-color: rgb(185, 78, 78);
+  display:table-cell; 
+  vertical-align:bottom;
+}
+
+
+.header span{
+  width: auto;
+  height: auto;
+  font: 12px "黑体";
+  color: #e45d5c;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+  
+}
+
+.middle {
+  margin: 44px;
+}
+
+.clearfix:after {
+  content:".";
+  clear: both;
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  display: block;
+}
+
+.middle>div:first-child {
+  width: 641px;
+  height: 301px;
+  float: left;
+  background-image: url(img/img1.jpg);
+
+}
+ .img1 {
+  width: 191px;
+  height: 301px;
+  float: left;
+  background-color: rgba(100,0,0,0.5)
+
+ }
+ .img3 {
+  width: 191px;
+  height: 301px;
+  float: right;
+  background-color: rgba(0,100,1,0.5)
+
+ }
+
+
+.box1 {
+  width: 203px;
+  height: 301px;
+  border-top: 2px solid #cc8091;
+  font: 12px "楷体";
+  line-height: 10px;
+  color: #676767;
+  float: right;
+}
+.box1 .about {
+  font:  24px "微软雅黑";
+  color: #000000;
+  text-decoration: underline;
+  margin-bottom: 0  40px 0 0 ;
+
+
+}
+.box1 .f700 {
+  font: italic 116px "微软雅黑";
+  color: #75b86b;
+  margin-left: -15px;
+
+}
+.box1 .f3 {
+  float: left;
+  font:  55px "微软雅黑";
+  color: #cc8091;
+
+}
+.box1 .css {
+  font:  21px "微软雅黑";
+  color: #cc8091;
+}.box1 .last {
+  font:  12px "微软雅黑";
+  color: #cc8091;
+}
+.box2 {
+  width: 892px;
+  height: 301px;
+  clear: both;
+}
+
+
+.box2 div {
+  float: left;
+  width: 200px;
+  height: 301px;
+  margin-right: 10px;
+  font: 12px  "微软雅黑";
+  line-height: 16px;
+  color: rgba(23,18,15,.7);
+
+}
+.box2 div:first-child h1 {
+  font: 16px;
+  text-decoration: underline;
+  color: #005500;
+  background
+}
+.box2 div:nth-child(2) h1 {
+  font: 16px;
+  text-decoration: underline;
+  color: #d2994f;
+}
+.box2 div:last-child h1 {
+  font: 16px;
+  text-decoration: underline;
+  color: #cc7680;
+}
+.box2 div:last-child span {
+  color: rgba(205,74,48,.7);
+  font: italic 12px "微软雅黑";
+
+}
+
+.box3 {
+  width: 892px;
+  height: 593px;
+
+}
+
+
+
+
+
+
+.box3-1{
+  width: 415px;
+  height: 100%;
+
+  float: left;
+  
+}
+.box3-1-1 {
+  height: auto;
+  border-bottom: 2px solid #11456b;
+  
+}
+.box3-1-1 span:first-child {
+  font: italic bold 72px "黑体";
+  color: #f5e327;
+
+}
+.box3-1-1 span:nth-child(2) {
+  font: bold 42px "黑体";
+  color: #11456b;
+}
+.box3-1-1 p {
+  font: bold 33px "黑体";
+  color: #11456b;
+}
+.box3-1-2 {
+  height: auto;
+  
+}
+.box3-1-2 span:first-child {
+  width: 70px;
+  height:70px;
+  font: 70px "微软雅黑";
+  color: #f5e327;
+  float: left;
+}
+.img4 {
+  float:right;
+  width: 100px;
+  height: 175px;
+
+  margin: 10px;
+  
+  
+}
+.box3-2 {
+  width: 459px;
+  height: 593px;
+  float: right;
+}
+
+.box3-2-1 {
+  width: 458px;
+  height: 275px;
+  background-image: url(img/img5.jpg);
+  position: relative;
+}
+.box3-2-1 div {
+  width: 458px;
+  height: 61px;
+  position: absolute;
+  bottom: 0;
+  color: #72b16a;
+  font: italic 12px "微软雅黑";
+  line-height: 140%;
+  background-color: rgba(1,1,1,.3);
+}
+
+.box3-2-1 div span {
+  height: 44px;
+  border-left: 3px solid #72b16a;
+  margin: 8.5px 30px;
+  padding: auto 10px;
+  font: 26px "微软雅黑";
+  color: #ffffff;
+}
+
+.box3-2-2 {
+  width: 459px;
+  height: 318px;
+  background-color: rgb(216, 216, 135);
+  position: relative;
+}
+
+ul {
+  font: italic 12px "宋体";
+  color: #5a5b5b;
+  line-height: 20px;
+  list-style-type: none;
+}
+li {
+  font: italic 21px "黑体";
+  color: #5a5b5b;
+
+}
+.one {
+  width: 260px;
+  height: 160px;
+  position: absolute;  
+  left: 0;
+  bottom: 0;
+  background-color: #a32e38;
+  color: #ffffff;
+  font: 12px "黑体";
+}
+.one:first-letter {
+  font: 110px "微软雅黑";
+  border-right: 2px solid #ffffff;
+  float: left;
+}
+.ont p {
+  font: italic 21px "黑体";
+  line-height: 24px;
+}
+.two {
+  background-color: inherit;
+  width: 199;
+  height: 160px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font: italic 14px "黑体";
+  color: #5a5b5b;
+  line-height: 16px;
+}
+.two span {
+    font: 72px "黑体";
+    color: #d45d5c;
+}
+.two span:first-child {
+  float: left;
+}
+.tow span:last-child {
+  float: right;
+}
+
+.footer {
+  width: 892px;
+  height: 61px;
+  margin: 0 44px;
+  border-top: 1px solid #938e8c;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.footer span {
+  float: right;
+}
