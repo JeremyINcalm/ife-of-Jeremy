@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+}
+.main {
+    margin: 0 auto;
+}
+.clearfix:after {
+    content: ".";
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    display: block;
+
+}
+
+/**页眉**/
+header {
+    width: 100%;
+}
+header span {
+    float: left;
+    margin-right: 10px;
+}
+header ul {
+    list-style-type: none;
+    float: right;
+    margin-right: 10px;
+
+}
+a {
+    display: block;
+    width: 100px;
+}
+header ul li {
+    float: left;
+    margin: 10px 0;
+}
+
+header ul li:last-child a{
+    color: rgb(161,16,16);
+}
+header ul li:hover {
+    color: rgb(161,16,16);
+    border-bottom: 2px solid rgb(161,16,16);
+}
+
+/**大图片**/
+.banner {
+    background-image: url("images/banner.png");
+    height: 700px;
+    clear: both;
+    padding-left: 100px;
+}
+.banner h1 {
+    margin: 300px 0 50px 0;
+}
+.banner p {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(161,16,16);
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+/**div1**/
+[class|=div1] {
+    float: left;
+    display: inline;
+    text-align: center;
+    width: 24.8%;
+}
+
+[class|=div1] img {
+    margin: 20px;
+    
+
+}
+
+[class|=div1] p {
+    border-right: 1px solid black;
+    margin-bottom: 30px;
+    height: 50px;
+    padding: 20px 0;
+}
+/**div2**/
+.div2 {
+    clear: both;
+    text-align: center;
+    background-color: #dbe0e9;
+
+}
+.div2 img {
+    margin: 50px auto;
+}
+.div2 p {
+    font-size: 50px;
+    color: gray;
+    margin-bottom: 60px;
+}
+
+/**div3**/
+.div3 {
+    height: 300px;
+    background-image: url("images/mainbody3.png");
+    text-align: center;
+}
+
+
+
