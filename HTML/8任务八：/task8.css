@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+}
+.container {
+    width: 100%;
+}
+
+.inside {
+    background-color: #eee;
+    height: 50px;
+    border: 1px solid #999;
+    
+}
+section>div {
+
+    box-sizing: border-box;
+    padding: 10px;
+    float: left;
+}
+
+
+@media all and (min-width:768px) 
+{
+    .min4 {
+        width: 33.33%;
+    }
+    .min3 {
+        width: 25%;
+    }
+    .min6 {
+        width: 50%;
+    }
+    .min1 {
+        width: 8.33%;
+    }
+    .min2 {
+        width: 16.66%;
+    }
+
+}
+
+@media all and (max-width:768px) {
+    .max6 {
+        width: 50%;
+    }
+  
+    .max12 {
+        width: 100%;
+    }
+    .max3 {
+        width: 25%;
+    }
+    .max2 {
+        width: 16.66%;
+    }
+    .max8 {
+        width: 66.66%;
+    }
+
+}
