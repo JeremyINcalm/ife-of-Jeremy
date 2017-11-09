@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 1px solid gray;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: none;
+}
+body {
+    width: 1280px;
+    margin: 0 auto;
+
+}
+/**页眉**/
+header {
+    height: 50px;
+    background-color: rgb(19, 102, 228);
+    color: white;
+}
+.logo {
+    margin: 5px 50px; 
+}
+header ul {
+    float: right;
+    list-style: none;
+    margin-right: 100px;
+    
+}
+header ul li {
+    float: left;
+    padding: 2px 10px;
+    margin: 10px;
+}
+
+
+header ul li:first-child {
+    background-color: white;
+    border-radius: 25px;
+
+}
+header [type=submit] {
+    background-color: rgb(19, 102, 228);
+    color: white;
+}
+/**侧栏**/
+.aside {
+    
+    width: 150px;
+    height: 1216px;
+    background-color: rgb(42, 44, 46);
+    color: gray;
+    padding: 0 50px;
+}
+.div0 {
+    text-align: center;
+    width: 100%;
+}
+.div0-1 {
+    width: 120px;
+    margin: 40px auto;
+    color: white;
+    
+}
+.div0-2,
+.div0-3 {
+    float: left;
+    width: 50px;
+    margin: 20px auto;
+
+}
+.div0-2 {
+    margin-left:  25px;
+    border-right: 1px solid rgb(42, 44, 46);
+}
+.ul0-1 {
+    clear: left;
+}
+/**侧栏第二部分**/
+.aside .ul0-1{
+    list-style-type: none;
+}
+.ul0-1 {
+    background-color: rgb(56, 58, 61)
+}
+.ul0-1 li {
+    margin: 10px 0;
+}
+.ul0-1 li:nth-child(2),
+.ul0-1 li:nth-child(3),
+.ul0-1 li:nth-child(6) {
+    margin-left: 20px;
+}
+.ul0-1 li:nth-child(4),
+.ul0-1 li:nth-child(5) {
+    margin-left: 40px;
+}
+.ul0-1 li:nth-child(1),
+.ul0-1 li:nth-child(3),
+.ul0-1 li:nth-child(4) {
+    color: white;
+}
+.ul0-2 {
+    list-style-position: inside;
+
+}
+.ul0-2 li {
+    margin: 30px 0;
+
+}
+.ul0-2 li:nth-child(1),
+.ul0-2 li:nth-child(3),
+.ul0-2 li:nth-child(4) {
+    list-style-image: url(image/star.png);
+}
+.ul0-2 li:nth-child(2) {
+    list-style-image: url(image/share.png);
+}
+.ul0-2 li:nth-child(5) {
+    list-style-image: url(image/user_info.png);
+}
+
+
+
+/**---------------------主要部分-----------------------------------**/
+
+/**导航**/
+.main {
+    float: right;
+    width: 1030px;
+    height: 1216px;
+}
+
+.main>div:first-child {
+    background-color: white;
+    color: rgb(42, 44, 46);
+    text-align: left;
+    padding: 5px 20px;
+}
+.main div:first-child span {
+    color: rgb(19, 102, 228);
+}
+/**主要内容**/
+.imp {
+    background-color: rgb(211, 218, 192)
+}
+
+form {
+    height: 100px;
+    width: 930px;
+    margin: 10px auto;
+    background-color: white;
+    color: rgb(56, 58, 61);
+}
+form div {
+    float: left;
+    margin: 20px 0 10px 20px;
+}
+
+form img {
+    float: left;
+    margin: 25px 0;
+}
+form>input {
+    margin: 30px 20px;
+    background-color: rgb(19, 102, 228);
+    color: white;
+    width: 60px;
+    height: 30px;
+}
+
+/**历史查询**/
+.div2 {
+    height: 60px;
+    width: 930px;
+    margin: 10px auto;
+
+}
+.div2 div {
+    float:left;
+    width: 115px;
+    height: 50px;
+    margin: 0 3px;
+    text-align: center;
+    padding: 5px 0;
+}
+.div2 div:hover {
+    border-top: 2px solid rgb(19, 102, 228);
+}
+.div2>img {
+    width: 32.5px;
+    height: 60px;
+    float: left;
+}
+.div2 div span {
+    font-size: 25px;
+    color: orangered;
+}
+.div2 * {
+    background-color: white;
+}
+/**统计**/
+[class|="div3"] {
+    float: left;
+    width: 196px;
+    height: 75px;
+    background-color: white;
+    margin-right:30px;
+    padding: 25px 0 0 10px; 
+}
+[class|="div3"] div {
+    width: 80px;
+    height: 50px;
+    float: right;
+    margin: -15px 20px 0 0 ;
+}
+.div3-1 {
+    border-left: 2px solid green;
+    margin-left: 50px;
+}
+.div3-1 div{
+    background-color: green;
+}
+.div3-2 {
+    border-left: 2px solid blue;
+}
+.div3-2 div{
+    background-color: blue;
+}
+.div3-3 {
+    border-left: 2px solid red;
+}
+.div3-3 div{
+    background-color: red;
+}
+.div3-4 {
+    border-left: 2px solid yellow;
+}
+.div3-4 div{
+    background-color: yellow;
+}
+
+
+.div4 {
+    clear: left;
+}
+
