@@ -75,9 +75,9 @@
             </div>
            <!--内容-->
             
-            <div class="imp">
+            <div class="imp clearfix">
                 <!--搜索-->
-                <form >
+                <form class="sou" >
                     <div class="div1">
                         查询项
                         <select>
@@ -168,14 +168,14 @@
                     <div></div>        
                 </div>
                 <!--第一组项目-->
-                <div class="div4">
+                <div class="div4 clearfix">
                     <h2>第一项目组</h2>
                     <div>项目一</div> 
                     <div>项目一</div>  
                     <div>项目一</div>  
                     <div>项目一</div>  
                     <div>项目一</div>  
-                    <div>
+                    <article>
                         <table>
                             <tr>
                                 <td>购买材料一</td>
@@ -212,27 +212,32 @@
                                 <td>购买材料二十</td>
                                 <td>购买材料二十</td>
                                 <td>购买材料二十</td>                                
-                            </tr>                          </tr>
+                            </tr>                          
                         </table>
-                    </div> 
+                    </article>
+                </div>     
                 <!--2-->
-                    <div>
+                    <div class="div5">
                         <h2>第一组项目</h2>
-                        <span>标题</span><br>
-                        项目报价三
+                        
                         <table>
+                            <tr><td colspan="2"> <p>标题</p>项目报价三</td></tr>
                             <tr>
+                                
                                 <td><p>价格</p>￥158</td>
                                 <td><p>负责人</p>小A</td>
                             </tr>
                             <tr>
-                                <td colspan="2"></td>
+                                <td colspan="2">项目描述<br>该项目目前负责人是...</td>
                             </tr>
                         </table>
-                            
+                        <form action="">
+                        <input type="checkbox">遵守保密协议    
+                        <input type="submit" value="搜索">
+                        </form>     
                     </div>
                 <!--3-->
-                <div>
+                <div class="div6">
                     <h2>日历</h2>
 
                     <form>
@@ -273,12 +278,12 @@
                             <td>6</td>
                             <td>7</td>
                             <td>8</td>
-                            <td>9</td>
+                            <td class="or">9</td>
                             <td>10</td>
                         </tr>
                         <tr>
                             <td>11</td>
-                            <td>12</td>
+                            <td class="or">12</td>
                             <td>13</td>
                             <td>14</td>
                             <td>15</td>
@@ -287,7 +292,7 @@
                         </tr>
                         <tr>
                             <td>18</td>
-                            <td>19</td>
+                            <td class="or">19</td>
                             <td>20</td>
                             <td>21</td>
                             <td>22</td>
@@ -306,7 +311,7 @@
                     </table>
                 </div>
             <!--4-->
-                <div>
+                <div class="div7">
                     <h2>汽车行业品牌榜</h2>
                     <table>
                         <tr>

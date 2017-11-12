@@ -1,7 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    border: 1px solid gray;
+
+
 }
 .clearfix:after {
     content: "";
@@ -42,13 +43,17 @@ header ul li:first-child {
     border-radius: 25px;
 
 }
+header input {
+    border: none;
+}
 header [type=submit] {
     background-color: rgb(19, 102, 228);
     color: white;
+    border: none;
 }
 /**侧栏**/
 .aside {
-    
+    float: left;
     width: 150px;
     height: 1216px;
     background-color: rgb(42, 44, 46);
@@ -61,7 +66,7 @@ header [type=submit] {
 }
 .div0-1 {
     width: 120px;
-    margin: 40px auto;
+    padding: 40px auto;
     color: white;
     
 }
@@ -82,6 +87,9 @@ header [type=submit] {
 /**侧栏第二部分**/
 .aside .ul0-1{
     list-style-type: none;
+    width: 250px;
+    margin-left: -50px;
+    padding-left: 50px;
 }
 .ul0-1 {
     background-color: rgb(56, 58, 61)
@@ -103,6 +111,7 @@ header [type=submit] {
 .ul0-1 li:nth-child(4) {
     color: white;
 }
+
 .ul0-2 {
     list-style-position: inside;
 
@@ -138,38 +147,46 @@ header [type=submit] {
     background-color: white;
     color: rgb(42, 44, 46);
     text-align: left;
-    padding: 5px 20px;
+    padding: 10px 20px;
+    height: 20px;
 }
 .main div:first-child span {
     color: rgb(19, 102, 228);
 }
 /**主要内容**/
 .imp {
-    background-color: rgb(211, 218, 192)
+    background-color: rgb(211, 218, 192);
+    height: 1166px;
+    padding-top: 10px;
+}
+.imp>div {
+    border: 1px solid rgb(148, 153, 160);
 }
 
-form {
+
+.sou {
     height: 100px;
     width: 930px;
     margin: 10px auto;
     background-color: white;
-    color: rgb(56, 58, 61);
+    color: rgb(148, 153, 160)
 }
-form div {
+.sou div {
     float: left;
     margin: 20px 0 10px 20px;
 }
 
-form img {
+.sou img {
     float: left;
     margin: 25px 0;
 }
-form>input {
+.sou>input {
     margin: 30px 20px;
     background-color: rgb(19, 102, 228);
     color: white;
     width: 60px;
     height: 30px;
+    border: none;
 }
 
 /**历史查询**/
@@ -181,11 +198,12 @@ form>input {
 }
 .div2 div {
     float:left;
-    width: 115px;
+    width: 117.575px;
     height: 50px;
     margin: 0 3px;
     text-align: center;
     padding: 5px 0;
+ 
 }
 .div2 div:hover {
     border-top: 2px solid rgb(19, 102, 228);
@@ -217,26 +235,26 @@ form>input {
     float: right;
     margin: -15px 20px 0 0 ;
 }
-.div3-1 {
+.imp .div3-1 {
     border-left: 2px solid green;
     margin-left: 50px;
 }
-.div3-1 div{
+.imp .div3-1 div{
     background-color: green;
 }
-.div3-2 {
+.imp .div3-2 {
     border-left: 2px solid blue;
 }
 .div3-2 div{
     background-color: blue;
 }
-.div3-3 {
+.imp .div3-3 {
     border-left: 2px solid red;
 }
 .div3-3 div{
     background-color: red;
 }
-.div3-4 {
+.imp .div3-4 {
     border-left: 2px solid yellow;
 }
 .div3-4 div{
@@ -246,5 +264,153 @@ form>input {
 
 .div4 {
     clear: left;
+    color: black;
+    float: left;
+    width: 600px;
+    height: 400px;
+    margin: 20px 0 10px 50px;
+    background-color: white;
+}
+.div4 div {
+    float: left;
+    width: 100px;
+    height: 20px;
+    margin-right: 3px; 
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 10px;
+    border: 1px solid rgb(148, 153, 160);
+
+
 }
 
+.div4 div:nth-child(2) {
+    margin-left: 20px;
+    border-bottom: white;
+
+    }
+.div4 article {
+    clear: left;
+    width: 460px;
+    margin: 20px;
+    padding: 50px;
+    border: 1px solid rgb(148, 153, 160);
+   
+}
+.div4 table {
+    border-collapse: collapse;
+}
+.div4 table tr td {
+    border:1px solid rgb(148, 153, 160);
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    
+}
+
+.div5 {
+    float: right;
+    width: 300px;
+    height: 400px;
+    margin: 20px 50px 10px 0;
+    background-color: white;
+    
+}
+.div5 table {
+    width: 250px;
+    margin: 30px 0 10px 50px;
+    border-collapse: collapse;
+
+}
+.div5 table tr:nth-child(2) td,
+.div5 table tr:nth-child(3) td{
+    border-top: 1px solid rgb(148, 153, 160);
+    border-bottom: 1px solid rgb(148, 153, 160);
+}
+.div5 table tr:last-child {
+    height: 150px;
+}
+.div5 form {
+    width: 220px;
+    height: 50px;
+    margin-left: 50px;
+}
+.div5 form [type=submit] {
+    float: right;
+    background-color: rgb(19, 102, 228);
+    color: white;
+    border: none;
+    width: 50px;
+    height: 20px;
+}
+
+
+/**6**/
+.div6 {
+    clear: left;
+    float: left;
+    margin-left: 50px;
+    width: 400px;
+    height: 300px;
+    background-color: white;
+}
+
+
+
+.div6 form {
+    padding: 10px 20px;
+}
+.div6 form * {
+    width: 85px;
+
+}
+.div6 table {
+    margin: 10px;
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    border-collapse:separate;
+    border-spacing: 0 5px;
+}
+.div6 table th {
+    border-top: 1px solid blue;
+    border-bottom: 1px solid rgb(148, 153, 160);
+}
+.or {
+    border: 1px solid orangered;
+}
+
+.div7 {
+    float: right;
+    width: 500px;
+    margin-right: 50px;
+    height: 300px;
+    background-color: white;
+}
+.div7 table {
+    width: 400px;
+    margin: 20px 50px;
+    
+    text-align: center;
+    border: 1px solid rgb(148, 153, 160);
+    border-collapse: collapse;
+}
+.div7 table *{
+    border: 1px solid rgb(148, 153, 160); 
+}
+h2 {
+    background-color: rgb(211, 218, 192);
+    color:rgb(90, 93, 97);
+    border: 1px solid rgb(148, 153, 160);
+    font-size: 10px;
+    padding: 10px;
+    height: 20px;
+}
+
+.div4,
+.div5,
+.div6,
+.div7 {
+    border-radius: 10px;
+    border: 1px solid rgb
+}
